@@ -5,6 +5,6 @@ import org.springframework.stereotype.Component;
 @Lazy
 public class LazySingleton {
     public LazySingleton() {
-        System.out.println("LazySingleton Initialized");
+        System.out.println("LazySingleton work");
     }
 }

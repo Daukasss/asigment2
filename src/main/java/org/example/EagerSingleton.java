@@ -3,6 +3,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class EagerSingleton {
     public EagerSingleton() {
-        System.out.println("EagerSingleton Initialized");
+        System.out.println("EagerSingleton work");
     }
 }
