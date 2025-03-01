@@ -8,8 +8,7 @@ public class DefaultStudentService implements StudentService {
     public DefaultStudentService(StudentRepository repository) {
         this.repository = repository;
     }
-    @Override
     public String getStudent(int id) {
-        return "Default Service: " + repository.getStudentById(id);
+        return "Default " + repository.getStudentById(id);
     }
 }

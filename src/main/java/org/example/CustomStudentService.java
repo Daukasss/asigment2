@@ -8,8 +8,7 @@ public class CustomStudentService implements StudentService {
     public CustomStudentService(StudentRepository repository) {
         this.repository = repository;
     }
-    @Override
     public String getStudent(int id) {
-        return "Custom Service: " + repository.getStudentById(id);
+        return "Custom " + repository.getStudentById(id);
     }
 }
